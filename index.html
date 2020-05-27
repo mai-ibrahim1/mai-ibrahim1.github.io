@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>an artist's life</title>
+    <style>
+        body {
+            background: rgb(245, 238, 219);
+            color: black;
+            padding: 10px;
+            font-family: Courier;
+        }
+
+        header {
+            font-size: 1.7em;
+            font-weight: italic;
+        }
+
+        #all-contents {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        /* navigation menu */
+
+        nav {
+            background: rgb(0, 92, 179);
+            margin-bottom: 10px;
+            display: flex;
+            padding: 10px;
+            border-radius: 15px;
+        }
+
+        nav header {
+            display: flex;
+            align-items: center;
+            color: white;
+            flex: 1;
+        }
+
+        nav ul {
+            list-style-image: none;
+        }
+
+        nav li {
+            display: inline-block;
+            padding: 0 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+        }
+
+        /* main container area beneath menu */
+
+        main {
+            background: pink;
+            display: flex;
+        }
+
+        .sidebar {
+            margin-right: 25px;
+            padding: 10px;
+        }
+
+        .sidebar img {
+            border: 1px solid #ddd;
+            border-radius: 20px;
+            padding: 5px;
+            width: 200px;
+        }
+
+        .content {
+            flex: 1;
+            padding: 15px;
+        }
+
+        .interests header {
+            font-size: 1.25em;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="all-contents">
+
+        <nav>
+            <header>The most minimalistic website ever</header>
+            <ul>
+
+                <li><a href="index.html">home</a></li>
+                <li><a href="portfolio.html">portfolio</a></li>
+
+            </ul>
+
+        </nav>
+
+        <main>
+            <div class="sidebar">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSMMmyqSVne9ZWZpq6LAAVABHGKoa5Phykft1ehg6FyCHMH6RJS">
+            </div>
+            <div class="content">
+                <section class="interests">
+                    <header>Mai Ibrahim</header>
+                    <p> Student at IHSNOLA </p>
+                    <header>Interests</header>
+                    <ul>
+                        <li>Drawing</li>
+                        <li>Backing</li>
+                        <li>Netflexting</li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
